@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function About() {
     return (
       <main className="min-h-screen flex flex-col items-center justify-center gap-4 px-6 bg-black text-zinc-50">
@@ -7,6 +8,10 @@ export default function About() {
           TypeScript, React, and Next.js so I can build real software and
           eventually launch SaaS products.
         </p>
+        <Link href="/" className="underline text-zinc-300 text-sm mt-6 hover:text-zinc-100">
+  ← Back to home
+</Link>
+
       </main>
     );
   }
