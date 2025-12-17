@@ -12,11 +12,19 @@ export default function Home() {
         </p>
       </section>
 
-      <Section title="Today's setup">
+      <Section title="Today&apos;s setup">
         <ul className="list-disc list-inside space-y-1">
           <li>Installed Node, Git, pnpm, and VS Code</li>
           <li>Scaffolded this Next.js dev site</li>
           <li>Hooked it to GitHub and deployed on Vercel</li>
+        </ul>
+      </Section>
+
+      <Section title="Tonight&apos;s Goals">
+        <ul className="list-disc list-inside space-y-1">
+          <li>Lock in the About page.</li>
+          <li>Wire Home page to About page.</li>
+          <li>Build a reusable Section component</li>
         </ul>
       </Section>
 
